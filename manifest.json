@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"version": "0.0.1",
+	"author": "moshyfawn",
+	"name": "Tweetless",
+	"description": "An extension to patch the new ridiculous character limit Twitter update",
+	"content_scripts": [
+		{
+			"matches": ["https://twitter.com/*"],
+			"js": ["main.js"]
+		}
+	]
+}
